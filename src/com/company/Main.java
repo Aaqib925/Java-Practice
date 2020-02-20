@@ -62,5 +62,10 @@ public class Main{
 //        String message = "Hello";
 //        String person = "Aaqib";
 //        System.out.println(message + " " + person);
+//        String message = "Hello World";
+//        System.out.println(message.length());
+//        System.out.println(message.endsWith("!!"));
+//        System.out.println(message.startsWith("H"));
+
     }
 }
