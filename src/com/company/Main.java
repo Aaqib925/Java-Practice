@@ -125,3 +125,23 @@ import java.util.Date;
 //    }
 //}
 
+// Arithmetic operations
+
+public class Main{
+    public static void main(String[] args){
+//        double x = 2;
+//        double y = 4;
+//        System.out.println(x + y);
+//        System.out.println(x * y);
+//        System.out.println(x / y); // this will result in whole number
+//        System.out.println(x / y);
+
+        int x = 1;
+        x++;
+        x += 1;
+        System.out.println(x);
+        int y = ++x;
+        System.out.println(y);
+
+    }
+}
