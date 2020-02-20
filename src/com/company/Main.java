@@ -29,12 +29,24 @@ package com.company;
 //    }
 //}
 
+import java.awt.*;
 import java.util.Date;
 
 // Reference types, to store complex objects
 public class Main {
     public static void main(String[] args) {
-        Date now = new Date();   // new is for creating an instance in of the class date
-        System.out.println(now);
+//        Date now = new Date();   // new is for creating an instance in of the class date
+//        System.out.println(now);
+        // Using reference types
+        Point point1 = new Point(1, 2);
+        System.out.println(point1);
+
+        // creating a refrence, this will get the address of that instance
+        Point point2;
+        point2 = point1;
+        point2.x = 2;
+        System.out.println(point2);
+
+
     }
 }
