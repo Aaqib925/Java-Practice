@@ -10,8 +10,8 @@ package com.company;
 //    }
 //}
 
-public class Main{
-    public static void main(String[] args) {
+//public class Main{
+//    public static void main(String[] args) {
 //        long age = 30;
 //        age = 35;
 //        System.out.println(age);
@@ -21,5 +21,10 @@ public class Main{
         // by default jave has the decimal point number as double, for float use suffix f
 //        float age = 10.56f;
 //        System.out.println(age);
-    }
-}
+        // for character use data types char
+//        char ch = 'A';  // Single quotes are necessary
+//        System.out.println(ch);
+//            boolean eligble = true;
+//            System.out.println(eligble);
+//    }
+//}
