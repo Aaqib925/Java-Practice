@@ -106,13 +106,22 @@ import java.util.Date;
 
 // Two dimensional arrays
 
-public class Main{
-    public static void main(String[] args){
+//public class Main{
+//    public static void main(String[] args){
         // to declare the multi-d array
 //        int[][] numbers = new int[1][2];
 //        numbers[0][1] = 1;
 //        System.out.println(Arrays.deepToString(numbers));
-        int[][] numbers = {{1, 2, 3}, {2, 3, 5}, {6, 7, 8}};
-        System.out.println(Arrays.deepToString(numbers));
-    }
-}
+//        int[][] numbers = {{1, 2, 3}, {2, 3, 5}, {6, 7, 8}};
+//        System.out.println(Arrays.deepToString(numbers));
+//    }
+//}
+
+// Constants
+//public class Main{
+//    public static void main(String[] args){
+//        final float pi = 3.142F;
+//        System.out.println(pi);
+//    }
+//}
+
