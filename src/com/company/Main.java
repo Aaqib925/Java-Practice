@@ -50,3 +50,17 @@ import java.util.Date;
 //
 //    }
 //}
+
+// Strings
+
+public class Main{
+    public static void main(String[] args) {
+//        String message = new String("Hello");  // this is also another method
+//        System.out.println(message);
+//        String message = "Hello world" + "!!";
+//        System.out.println(message);
+//        String message = "Hello";
+//        String person = "Aaqib";
+//        System.out.println(message + " " + person);
+    }
+}
