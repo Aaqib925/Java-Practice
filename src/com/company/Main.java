@@ -62,11 +62,12 @@ public class Main{
 //        String message = "Hello";
 //        String person = "Aaqib";
 //        System.out.println(message + " " + person);
-        String message = "Hello World";
+        String message = "hello World";
 //        System.out.println(message.length());
 //        System.out.println(message.endsWith("!!"));
 //        System.out.println(message.startsWith("H"));
         System.out.println(message.indexOf("SKy"));
         System.out.println(message.replace("h", "H"));
+        System.out.println(message);  // strings are immutable, replace method is creating a new string
     }
 }
