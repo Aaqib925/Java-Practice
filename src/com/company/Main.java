@@ -62,14 +62,17 @@ public class Main{
 //        String message = "Hello";
 //        String person = "Aaqib";
 //        System.out.println(message + " " + person);
-        String message = "hello World";
+//        String message = "hello World";
 //        System.out.println(message.length());
 //        System.out.println(message.endsWith("!!"));
 //        System.out.println(message.startsWith("H"));
-        System.out.println(message.indexOf("SKy"));
-        System.out.println(message.replace("h", "H"));
-        System.out.println(message);  // strings are immutable, replace method is creating a new string
-        System.out.println(message.toLowerCase());
-        System.out.println(message.toUpperCase());
+//        System.out.println(message.indexOf("SKy"));
+//        System.out.println(message.replace("h", "H"));
+//        System.out.println(message);  // strings are immutable, replace method is creating a new string
+//        System.out.println(message.toLowerCase());
+//        System.out.println(message.toUpperCase());
+
+//        String mystring = "   Hello aaqib  ";
+//        System.out.println(mystring.trim());
     }
 }
