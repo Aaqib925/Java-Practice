@@ -84,8 +84,8 @@ import java.util.Date;
 
 // Arrays
 
-public class Main{
-    public static void main(String[] args){
+//public class Main{
+//    public static void main(String[] args){
         // to make an array
 //        int[] numbers = new int[5];
 //        numbers[0] = 1;
@@ -95,10 +95,24 @@ public class Main{
 //        words[0] = "Aaqib";
 //        words[1] = "Asim";
 //        System.out.println(Arrays.toString(words));
-        int[] numbers = {6, 24, 1, 2};
-        System.out.println(numbers.length);
-        System.out.println(Arrays.toString(numbers)); // immutable lists in java
-        Arrays.sort(numbers);
-        System.out.println(Arrays.toString(numbers));
+//        int[] numbers = {6, 24, 1, 2};
+//        System.out.println(numbers.length);
+//        System.out.println(Arrays.toString(numbers)); // immutable lists in java
+//        Arrays.sort(numbers);
+//        System.out.println(Arrays.toString(numbers));
+
+//    }
+//}
+
+// Two dimensional arrays
+
+public class Main{
+    public static void main(String[] args){
+        // to declare the multi-d array
+//        int[][] numbers = new int[1][2];
+//        numbers[0][1] = 1;
+//        System.out.println(Arrays.deepToString(numbers));
+        int[][] numbers = {{1, 2, 3}, {2, 3, 5}, {6, 7, 8}};
+        System.out.println(Arrays.deepToString(numbers));
     }
 }
