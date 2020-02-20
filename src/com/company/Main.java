@@ -53,8 +53,8 @@ import java.util.Date;
 
 // Strings
 
-public class Main{
-    public static void main(String[] args) {
+//public class Main{
+//    public static void main(String[] args) {
 //        String message = new String("Hello");  // this is also another method
 //        System.out.println(message);
 //        String message = "Hello world" + "!!";
@@ -74,5 +74,9 @@ public class Main{
 
 //        String mystring = "   Hello aaqib  ";
 //        System.out.println(mystring.trim());
-    }
-}
+        // using escape characters
+//        String mystr = "Hello \"Aaqib\"";
+//        System.out.println(mystr);
+//    }
+//}
+
