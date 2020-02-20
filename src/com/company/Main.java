@@ -28,3 +28,13 @@ package com.company;
 //            System.out.println(eligble);
 //    }
 //}
+
+import java.util.Date;
+
+// Reference types, to store complex objects
+public class Main {
+    public static void main(String[] args) {
+        Date now = new Date();   // new is for creating an instance in of the class date
+        System.out.println(now);
+    }
+}
