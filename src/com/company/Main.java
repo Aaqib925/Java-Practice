@@ -69,5 +69,7 @@ public class Main{
         System.out.println(message.indexOf("SKy"));
         System.out.println(message.replace("h", "H"));
         System.out.println(message);  // strings are immutable, replace method is creating a new string
+        System.out.println(message.toLowerCase());
+        System.out.println(message.toUpperCase());
     }
 }
