@@ -87,13 +87,18 @@ import java.util.Date;
 public class Main{
     public static void main(String[] args){
         // to make an array
-        int[] numbers = new int[5];
-        numbers[0] = 1;
-        numbers[1] = 1;
+//        int[] numbers = new int[5];
+//        numbers[0] = 1;
+//        numbers[1] = 1;
+//        System.out.println(Arrays.toString(numbers));
+//        String[] words = new String[2];
+//        words[0] = "Aaqib";
+//        words[1] = "Asim";
+//        System.out.println(Arrays.toString(words));
+        int[] numbers = {6, 24, 1, 2};
+        System.out.println(numbers.length);
+        System.out.println(Arrays.toString(numbers)); // immutable lists in java
+        Arrays.sort(numbers);
         System.out.println(Arrays.toString(numbers));
-        String[] words = new String[2];
-        words[0] = "Aaqib";
-        words[1] = "Asim";
-        System.out.println(Arrays.toString(words));
     }
 }
