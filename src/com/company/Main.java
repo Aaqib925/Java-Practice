@@ -30,6 +30,8 @@ package com.company;
 //}
 
 //import java.awt.*;
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Date;
 
 // Reference types, to store complex objects
@@ -80,3 +82,18 @@ import java.util.Date;
 //    }
 //}
 
+// Arrays
+
+public class Main{
+    public static void main(String[] args){
+        // to make an array
+        int[] numbers = new int[5];
+        numbers[0] = 1;
+        numbers[1] = 1;
+        System.out.println(Arrays.toString(numbers));
+        String[] words = new String[2];
+        words[0] = "Aaqib";
+        words[1] = "Asim";
+        System.out.println(Arrays.toString(words));
+    }
+}
