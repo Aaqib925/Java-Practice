@@ -240,19 +240,19 @@ import java.util.Scanner;
 //        }
 //    }
 //}
-
-public class Main{
-    public static void main(String[] args){
-        System.out.print("Enter the temperature: ");
-        int number = new Scanner(System.in).nextInt();
-        if (number > 32){
-            System.out.println("It's a Hot day.");
-        }
-        else if (number > 20 && number <= 31){
-            System.out.println("It's a Beautiful day");
-        }
-        else {
-            System.out.println("It's a cold day!");
-        }
-    }
-}
+//
+//public class Main{
+//    public static void main(String[] args){
+//        System.out.print("Enter the temperature: ");
+//        int number = new Scanner(System.in).nextInt();
+//        if (number > 32){
+//            System.out.println("It's a Hot day.");
+//        }
+//        else if (number > 20 && number <= 31){
+//            System.out.println("It's a Beautiful day");
+//        }
+//        else {
+//            System.out.println("It's a cold day!");
+//        }
+//    }
+//}
