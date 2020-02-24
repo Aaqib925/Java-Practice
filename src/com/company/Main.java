@@ -156,8 +156,8 @@ import java.util.Date;
 //    }
 //}
 
-public class Main{
-    public static void main(String[] args){
+//public class Main{
+//    public static void main(String[] args){
 //        int number = (int)Math.round(1.5);
 //        System.out.println(number);
 //        double number2 = Math.ceil(1.1);
@@ -169,8 +169,9 @@ public class Main{
 //        // using random function
 //        int result2 = (int) (Math.random() * 100);
 //        System.out.println(result2);
-        double result = Math.random();
-        System.out.println(result);   // this will return decimal point values
+//        double result = Math.random();
+//        System.out.println(result);   // this will return decimal point values
+//
+//    }
+//}
 
-    }
-}
