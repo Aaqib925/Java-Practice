@@ -177,10 +177,14 @@ import java.util.Date;
 //}
 
 // Formatting numbers
-public class Main{
-    public static void main(String[] args){
-        NumberFormat num = NumberFormat.getCurrencyInstance();
-        String result = num.format(12455.221);
-        System.out.println(result);
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        NumberFormat num = NumberFormat.getCurrencyInstance();
+//        String result = num.format(12455.221);
+//        System.out.println(result);
+//        String result2 = NumberFormat.getPercentInstance().format(0.1);
+//        System.out.println(result2);
+//        String newresult = NumberFormat.getIntegerInstance().format(124.67);
+//        System.out.println(newresult);
+//    }
+//}
