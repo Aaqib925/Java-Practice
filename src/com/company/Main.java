@@ -151,5 +151,7 @@ public class Main{
         String x = "1";
         int result = Integer.parseInt(x) + 2;
         System.out.println(result);
+        // we also have this parses function for floating-point values and double etc
+
     }
 }
