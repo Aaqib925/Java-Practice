@@ -209,3 +209,21 @@ import java.util.Scanner;
 //    }
 //}
 
+public class Main{
+    public static void main(String[] args){
+        System.out.print("Principal: ");
+        int princ = new Scanner(System.in).nextInt();
+        System.out.print("Annual Interest Rate: ");
+        float annual = new Scanner(System.in).nextFloat();
+        float monthly = annual / 100 / 12;
+//        System.out.println(monthly);
+        System.out.print("Period (Years): ");
+        int years = (new Scanner(System.in).nextInt()) * 12;
+        System.out.println(years);
+//        System.out.print("Mortgage: ");
+        double total = princ * (monthly * Math.pow(1 + monthly, years)) / (Math.pow(1 + monthly, years) - 1);
+        System.out.println(NumberFormat.getCurrencyInstance().format(total));
+
+
+    }
+}
