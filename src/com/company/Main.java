@@ -191,8 +191,8 @@ import java.util.Scanner;
 //}
 
 // reading inputs from the user using scanner class
-public class Main{
-    public static void main(String[] args){
+//public class Main{
+//    public static void main(String[] args){
 //        Scanner scanner = new Scanner(System.in);
 //        byte result = scanner.nextByte();
 //        System.out.println("Your result is " + result);
@@ -204,7 +204,7 @@ public class Main{
 //        System.out.print("Enter your full Name: ");
 //        String result = myinput.nextLine();
 //        System.out.println(result);
-        System.out.print("Enter your Name: ");
-        System.out.println("Your Name is: " + (new Scanner (System.in)).nextLine());
-    }
-}
+//        System.out.print("Enter your Name: ");
+//        System.out.println("Your Name is: " + (new Scanner (System.in)).nextLine());
+//    }
+//}
