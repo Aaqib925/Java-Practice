@@ -146,12 +146,31 @@ import java.util.Date;
 //    }
 //}
 
+//public class Main{
+//    public static void main(String[] args){
+//        String x = "1";
+//        int result = Integer.parseInt(x) + 2;
+//        System.out.println(result);
+//        // we also have this parses function for floating-point values and double etc
+//
+//    }
+//}
+
 public class Main{
     public static void main(String[] args){
-        String x = "1";
-        int result = Integer.parseInt(x) + 2;
-        System.out.println(result);
-        // we also have this parses function for floating-point values and double etc
+//        int number = (int)Math.round(1.5);
+//        System.out.println(number);
+//        double number2 = Math.ceil(1.1);
+//        System.out.println(number2);
+//        double number3 = Math.floor(1.2);
+//        System.out.println(number3);
+//        int result = Math.max(1, 2);
+//        System.out.println(result);
+//        // using random function
+//        int result2 = (int) (Math.random() * 100);
+//        System.out.println(result2);
+        double result = Math.random();
+        System.out.println(result);   // this will return decimal point values
 
     }
 }
