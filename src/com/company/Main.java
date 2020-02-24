@@ -31,6 +31,7 @@ package com.company;
 
 //import java.awt.*;
 import java.lang.reflect.Array;
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -175,3 +176,11 @@ import java.util.Date;
 //    }
 //}
 
+// Formatting numbers
+public class Main{
+    public static void main(String[] args){
+        NumberFormat num = NumberFormat.getCurrencyInstance();
+        String result = num.format(12455.221);
+        System.out.println(result);
+    }
+}
