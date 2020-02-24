@@ -204,5 +204,7 @@ public class Main{
 //        System.out.print("Enter your full Name: ");
 //        String result = myinput.nextLine();
 //        System.out.println(result);
+        System.out.print("Enter your Name: ");
+        System.out.println("Your Name is: " + (new Scanner (System.in)).nextLine());
     }
 }
