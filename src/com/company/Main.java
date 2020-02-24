@@ -34,6 +34,7 @@ import java.lang.reflect.Array;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 // Reference types, to store complex objects
 //public class Main {
@@ -188,3 +189,20 @@ import java.util.Date;
 //        System.out.println(newresult);
 //    }
 //}
+
+// reading inputs from the user using scanner class
+public class Main{
+    public static void main(String[] args){
+//        Scanner scanner = new Scanner(System.in);
+//        byte result = scanner.nextByte();
+//        System.out.println("Your result is " + result);
+//        Scanner myinput = new Scanner(System.in);
+//        System.out.print("Enter your name: ");
+//        String result = myinput.next();
+//        System.out.println("Your name is: " + result);
+//        Scanner myinput = new Scanner(System.in);
+//        System.out.print("Enter your full Name: ");
+//        String result = myinput.nextLine();
+//        System.out.println(result);
+    }
+}
