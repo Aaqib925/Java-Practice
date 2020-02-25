@@ -260,7 +260,7 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
         System.out.println("Welcome to the Java Calculator");
-        System.out.println("1:Addition\n2:Subtraction\n3:Multiplication\n4:Division\nPower");
+        System.out.println("1:Addition\n2:Subtraction\n3:Multiplication\n4:Division\n5:Power");
         System.out.println("'Select the number of operation you want to perform'");
         int x = new Scanner(System.in).nextInt();
         String result = "";
