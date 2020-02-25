@@ -256,3 +256,51 @@ import java.util.Scanner;
 //        }
 //    }
 //}
+
+public class Main{
+    public static void main(String[] args){
+        System.out.println("Welcome to the Java Calculator");
+        System.out.println("1:Addition\n2:Subtraction\n3:Multiplication\n4:Division\nPower");
+        System.out.println("'Select the number of operation you want to perform'");
+        int x = new Scanner(System.in).nextInt();
+        String result = "";
+        if (x == 1){
+            result = "Add";
+        }
+        else if (x == 2){
+            result = "Subtract";
+        }
+        else if (x == 3){
+            result = "Multiply";
+        }
+        else if (x == 4){
+            result = "Divide";
+        }
+        else{
+            result = "Take Power";
+        }
+        System.out.print("Enter First Number to " + result + " :");
+        float first_num = new Scanner(System.in).nextFloat();
+
+        System.out.print("Enter Second Number: ");
+        float second_num = new Scanner(System.in).nextFloat();
+        float ans = 0;
+        if (x == 1){
+            ans = first_num + second_num;
+        }
+        else if (x == 2){
+            ans = first_num - second_num;
+        }
+        else if (x == 3){
+            ans = first_num * second_num;
+        }
+        else if (x == 4){
+            ans = first_num / second_num;
+        }
+        else{
+            ans = (float) Math.pow(first_num, second_num);
+        }
+        System.out.print("Your Answer is: ");
+        System.out.println(ans);
+    }
+}
