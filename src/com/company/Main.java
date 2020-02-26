@@ -366,12 +366,12 @@ import java.util.Scanner;
 //        }
 //    }
 //}
-public class Main{
-    public static void main(String[] args){
-        System.out.print("Enter any number: ");
-        float number = new Scanner(System.in).nextFloat();
-        for (int i = 1; i <= 10; i++){
-            System.out.println((int)number + " * " + i + " = " + (int)number * i);
-        }
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        System.out.print("Enter any number: ");
+//        float number = new Scanner(System.in).nextFloat();
+//        for (int i = 1; i <= 10; i++){
+//            System.out.println((int)number + " * " + i + " = " + (int)number * i);
+//        }
+//    }
+//}
