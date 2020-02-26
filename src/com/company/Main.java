@@ -312,3 +312,23 @@ import java.util.Scanner;
 //        System.out.println(result);
 //    }
 //}
+
+// Switch statements
+
+public class Main{
+    public static void main(String[] args){
+        String role = new Scanner(System.in).nextLine();
+        switch (role){
+            case "Admin":
+                System.out.println("You're Admin");
+                break;
+
+            case "Moderator":
+                System.out.println("You're Moderator");
+                break;
+
+            default:
+                System.out.println("You're guest");
+        }
+    }
+}
