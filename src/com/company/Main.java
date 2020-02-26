@@ -305,10 +305,10 @@ import java.util.Scanner;
 //    }
 //}
 
-public class Main{
-    public static void main(String[] args){
-        int income = new Scanner(System.in).nextInt();
-        String result = income > 100_000 ? "First" : "Economy";
-        System.out.println(result);
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        int income = new Scanner(System.in).nextInt();
+//        String result = income > 100_000 ? "First" : "Economy";
+//        System.out.println(result);
+//    }
+//}
