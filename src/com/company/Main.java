@@ -420,40 +420,40 @@ import java.util.Scanner;
 //    }
 //}
 
-public class Main{
-    public static void main(String[] args){
-        int princ = 0;
-        float monthly = 0;
-        int years = 0;
-        while (true) {
-            System.out.print("Principal: ");
-            princ = new Scanner(System.in).nextInt();
-            if (princ >= 1000 && princ <= 100_000){
-                break;
-            }
-            System.out.println("Please enter value between 1000 and 100000");
-        }
-        while (true) {
-            System.out.print("Annual Interest Rate: ");
-            float annual = new Scanner(System.in).nextFloat();
-            monthly = annual / 100 / 12;
-            if (annual > 0 && annual < 30)
-                break;
-            System.out.println("Enter value between 1 and 30");
-        }
-        while (true) {
-            System.out.print("Period (Years): ");
-            years = (new Scanner(System.in).nextInt());
-//            System.out.println(years);
-            if (years > 0 && years <= 30)
-                break;
-            years = years * 12;
-            System.out.println("Please Enter between 1 to 30");
-        }
-        System.out.print("Mortgage: ");
-        double total = princ * (monthly * Math.pow(1 + monthly, years)) / (Math.pow(1 + monthly, years) - 1);
-        System.out.println(NumberFormat.getCurrencyInstance().format(total));
-
-
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        int princ = 0;
+//        float monthly = 0;
+//        int years = 0;
+//        while (true) {
+//            System.out.print("Principal: ");
+//            princ = new Scanner(System.in).nextInt();
+//            if (princ >= 1000 && princ <= 100_000){
+//                break;
+//            }
+//            System.out.println("Please enter value between 1000 and 100000");
+//        }
+//        while (true) {
+//            System.out.print("Annual Interest Rate: ");
+//            float annual = new Scanner(System.in).nextFloat();
+//            monthly = annual / 100 / 12;
+//            if (annual > 0 && annual < 30)
+//                break;
+//            System.out.println("Enter value between 1 and 30");
+//        }
+//        while (true) {
+//            System.out.print("Period (Years): ");
+//            years = (new Scanner(System.in).nextInt());
+////            System.out.println(years);
+//            if (years > 0 && years <= 30)
+//                break;
+//            years = years * 12;
+//            System.out.println("Please Enter between 1 to 30");
+//        }
+//        System.out.print("Mortgage: ");
+//        double total = princ * (monthly * Math.pow(1 + monthly, years)) / (Math.pow(1 + monthly, years) - 1);
+//        System.out.println(NumberFormat.getCurrencyInstance().format(total));
+//
+//
+//    }
+//}
