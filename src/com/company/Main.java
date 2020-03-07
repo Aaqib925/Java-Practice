@@ -473,3 +473,21 @@ import java.util.Scanner;
 //
 //    }
 //}
+
+public class Main{
+    public static void main(String[] args){
+        int a = 0;
+        int b = 2;
+        int n = 10;
+        int factor = 1;
+        int result = a + b;
+        System.out.print(result);
+        for (int j = 1; j < n; j ++){
+            System.out.print(" ");
+            factor *= 2;
+            result += factor * b;
+            System.out.print(result);
+
+        }
+    }
+}
