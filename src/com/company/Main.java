@@ -492,17 +492,17 @@ import java.util.Scanner;
 //    }
 //}
 
-public class Main{
-    public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        StringBuilder ans = new StringBuilder();
-        while (number > 1){
-            int num = number % 2;
-            ans.insert(0, num);
-            num = (int) Math.ceil(num / 10);
-
-        }
-        System.out.println(ans);
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        StringBuilder ans = new StringBuilder();
+//        while (number > 1){
+//            int num = number % 2;
+//            ans.insert(0, num);
+//            num = (int) Math.ceil(num / 10);
+//
+//        }
+//        System.out.println(ans);
+//    }
+//}
