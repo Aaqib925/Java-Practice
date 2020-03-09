@@ -506,3 +506,18 @@ import java.util.Scanner;
 //        System.out.println(ans);
 //    }
 //}
+
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        if (scanner.hasNextInt()){
+            System.out.println("This is Number (Int).");
+        }
+        else if (scanner.hasNextLine()){
+            System.out.println("This is String.");
+        }
+        else if (scanner.hasNextDouble()){
+            System.out.println("This is floating-point value.");
+        }
+    }
+}
