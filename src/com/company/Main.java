@@ -571,5 +571,7 @@ import java.util.*;
 //        // to get the index of the list we use the method called indexOf
 //        // to get the value we use method get();
 //        // to delete all the elements inside the list we use the method named clear();
+//        // to convert list to array we use list.toArray(); and for Array.toList();
 //    }
 //}
+
