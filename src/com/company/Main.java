@@ -568,6 +568,8 @@ public class Main{
         mylist.remove(0);
         System.out.println(mylist);
         System.out.println(mylist.contains(0));
+        // to get the index of the list we use the method called indexOf
+        // to get the value we use method get();
         // to delete all the elements inside the list we use the method named clear();
     }
 }
