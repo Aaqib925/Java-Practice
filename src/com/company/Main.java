@@ -565,5 +565,9 @@ public class Main{
         mylist.add(1);
         System.out.println(mylist);
         // to remove we use remove method using the index of the element
+        mylist.remove(0);
+        System.out.println(mylist);
+        System.out.println(mylist.contains(0));
+        // to delete all the elements inside the list we use the method named clear();
     }
 }
