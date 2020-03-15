@@ -558,18 +558,18 @@ import java.util.*;
 //    }
 //}
 
-public class Main{
-    public static void main(String[] args){
-        List<Integer> mylist= new ArrayList<Integer>();
-        // for adding an element in the list we use add method with index
-        mylist.add(1);
-        System.out.println(mylist);
-        // to remove we use remove method using the index of the element
-        mylist.remove(0);
-        System.out.println(mylist);
-        System.out.println(mylist.contains(0));
-        // to get the index of the list we use the method called indexOf
-        // to get the value we use method get();
-        // to delete all the elements inside the list we use the method named clear();
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        List<Integer> mylist= new ArrayList<>();
+//        // for adding an element in the list we use add method with index
+//        mylist.add(1);
+//        System.out.println(mylist);
+//        // to remove we use remove method using the index of the element
+//        mylist.remove(0);
+//        System.out.println(mylist);
+//        System.out.println(mylist.contains(0));
+//        // to get the index of the list we use the method called indexOf
+//        // to get the value we use method get();
+//        // to delete all the elements inside the list we use the method named clear();
+//    }
+//}
