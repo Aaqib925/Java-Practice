@@ -550,10 +550,10 @@ public class Main{
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the size of your array: ");
         int size = scanner.nextInt();
-        int[] myArray = new int[size];
+        String[] myArray = new String[size];
         for (int i = 0; i < size; i ++){
             System.out.print("Enter the value for index " + i + ": ");
-            int x = scanner.nextInt();
+            String x = scanner.next();
             myArray[i] = x;
         }
         System.out.println(Arrays.toString(myArray));
