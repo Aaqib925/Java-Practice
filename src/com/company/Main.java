@@ -32,9 +32,7 @@ package com.company;
 //import java.awt.*;
 import java.lang.reflect.Array;
 import java.text.NumberFormat;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.Scanner;
+import java.util.*;
 
 // Reference types, to store complex objects
 //public class Main {
@@ -559,3 +557,13 @@ import java.util.Scanner;
 //        System.out.println(Arrays.toString(myArray));
 //    }
 //}
+
+public class Main{
+    public static void main(String[] args){
+        List<Integer> mylist= new ArrayList<Integer>();
+        // for adding an element in the list we use add method with index
+        mylist.add(1);
+        System.out.println(mylist);
+        // to remove we use remove method using the index of the element
+    }
+}
