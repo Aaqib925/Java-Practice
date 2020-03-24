@@ -575,12 +575,12 @@ import java.util.*;
 //    }
 //}
 
-public class Main{
-    public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        String user = scanner.nextLine();
-        int counter = 0;
-        String vowels = "AEIOUaeiou";
-        System.out.println(user.substring(0));
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        Scanner scanner = new Scanner(System.in);
+//        String user = scanner.nextLine();
+//        int counter = 0;
+//        String vowels = "AEIOUaeiou";
+//        System.out.println(user.substring(0));
+//    }
+//}
