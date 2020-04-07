@@ -612,3 +612,24 @@ import java.util.*;
 //        }
 //    }
 //}
+
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter any word or sentence: ");
+        String user = scanner.nextLine();
+        user = user.toLowerCase();
+        System.out.println(user);
+        int vowels = 0, consonants = 0;
+        for(int i = 0; i < user.length(); i ++){
+            if(user.charAt(i) == 'a' || user.charAt(i) == 'e' || user.charAt(i) == 'i' || user.charAt(i) == 'o' || user.charAt(i) == 'u'){
+                vowels ++;
+            }
+            else if (user.charAt(i) >= 'a' && user.charAt(i) <= 'z'){
+                consonants ++;
+            }
+        }
+        System.out.println("The number of vowels are: " + vowels);
+        System.out.println("The number of consosnants are: " + consonants);
+    }
+}
