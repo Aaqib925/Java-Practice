@@ -584,3 +584,16 @@ import java.util.*;
 //        System.out.println(user.substring(0));
 //    }
 //}
+
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter any number: ");
+        int number = scanner.nextInt();
+        for (int i = 1; i <= number; i++){
+            if (number % i == 0){
+                System.out.println(i + " is the factor of " + number);
+            }
+        }
+    }
+}
