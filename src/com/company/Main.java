@@ -633,3 +633,14 @@ import java.util.*;
 //        System.out.println("The number of consosnants are: " + consonants);
 //    }
 //}
+//public class Main{
+//    public static void main(String[] args){
+//        Scanner scanner = new Scanner(System.in);
+//        String user = scanner.nextLine();
+//        char[] chars = user.toCharArray();
+//        System.out.println(chars);
+////        for (char x: user.toCharArray()){
+////            System.out.println(x);
+////        }
+//    }
+//}
