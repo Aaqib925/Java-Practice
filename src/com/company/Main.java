@@ -597,3 +597,18 @@ import java.util.*;
 //        }
 //    }
 //}
+
+public class Main{
+    public static void main(String[] args){
+        int counter = 0;
+        String vowels = "aeiouAEIOU";
+        Scanner scanner = new Scanner(System.in);
+        String user = scanner.nextLine();
+        for (int i = 0; i < user.length(); i ++){
+            char x = user.charAt(i);
+            if (vowels.contains(x)){
+
+            }
+        }
+    }
+}
