@@ -654,20 +654,26 @@ import java.util.*;
 //    }
 //}
 
-public class Main{
-    public static void main(String[] args){
-        List<Integer> grades = new ArrayList<Integer>();
-        Scanner scanner = new Scanner(System.in);
+//public class Main{
+//    public static void main(String[] args){
+//        List<Integer> grades = new ArrayList<Integer>();
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Enter the length of your list: ");
+//        int user_len = scanner.nextInt();
+//
+//        for (int i = 0; i < user_len; i ++){
+//            System.out.print("Enter the for index " + i + ": ");
+//            grades.add(scanner.nextInt());
+//        }
+//
+//        System.out.println(grades);
+//        List<List<Integer>> multigrades = new ArrayList<List<Integer>>();
+//        multigrades.add(Arrays.asList(1, 2, 3));
+//        multigrades.add(Arrays.asList(1, 2, 3));
+//        multigrades.add(Arrays.asList(1, 2, 3));
 
-        System.out.print("Enter the length of your list: ");
-        int user_len = scanner.nextInt();
-
-        for (int i = 0; i < user_len; i ++){
-            System.out.print("Enter the for index " + i + ": ");
-            grades.add(scanner.nextInt());
-        }
-
-        System.out.println(grades);
-    }
-
-}
+//        System.out.println(multigrades);
+//    }
+//
+//}
