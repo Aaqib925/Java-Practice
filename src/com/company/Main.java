@@ -687,13 +687,13 @@ import java.util.*;
 //    }
 //}
 
-public class Main{
-    public static void main(String[] args){
-        printFunction("Aaqib");
-    }
-    // creating a greeting static function, a static method is related to the class not for object
-    // void means it doesn't return anything
-    public static void printFunction(String name){
-        System.out.println("Hello " + name);
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        printFunction("Aaqib");
+//    }
+//    // creating a greeting static function, a static method is related to the class not for object
+//    // void means it doesn't return anything
+//    public static void printFunction(String name){
+//        System.out.println("Hello " + name);
+//    }
+//}
