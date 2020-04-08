@@ -653,3 +653,21 @@ import java.util.*;
 //        }
 //    }
 //}
+
+public class Main{
+    public static void main(String[] args){
+        List<Integer> grades = new ArrayList<Integer>();
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the length of your list: ");
+        int user_len = scanner.nextInt();
+
+        for (int i = 0; i < user_len; i ++){
+            System.out.print("Enter the for index " + i + ": ");
+            grades.add(scanner.nextInt());
+        }
+
+        System.out.println(grades);
+    }
+
+}
