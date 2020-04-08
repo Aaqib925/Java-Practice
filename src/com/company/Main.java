@@ -678,11 +678,11 @@ import java.util.*;
 //
 //}
 
-public class Main{
-    public static void main(String[] args){
-        List<Integer> grades = Arrays.asList(3, 41, 4, 2, 1);
-        Collections.sort(grades);
-        Collections.reverse(grades);
-        System.out.println(grades);
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        List<Integer> grades = Arrays.asList(3, 41, 4, 2, 1);
+//        Collections.sort(grades);
+//        Collections.reverse(grades);
+//        System.out.println(grades);
+//    }
+//}
