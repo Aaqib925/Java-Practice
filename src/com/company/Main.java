@@ -697,3 +697,16 @@ import java.util.*;
 //        System.out.println("Hello " + name);
 //    }
 //}
+
+//using return
+
+public class Main{
+
+    public static void main(String[] args){
+        System.out.println(greetuser("Aaqib"));
+    }
+
+    public static String greetuser(String name){
+        return "Hello " + name;
+    }
+}
