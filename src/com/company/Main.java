@@ -700,13 +700,13 @@ import java.util.*;
 
 //using return
 
-public class Main{
-
-    public static void main(String[] args){
-        System.out.println(greetuser("Aaqib"));
-    }
-
-    public static String greetuser(String name){
-        return "Hello " + name;
-    }
-}
+//public class Main{
+//
+//    public static void main(String[] args){
+//        System.out.println(greetuser("Aaqib"));
+//    }
+//
+//    public static String greetuser(String name){
+//        return "Hello " + name;
+//    }
+//}
