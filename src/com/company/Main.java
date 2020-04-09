@@ -725,8 +725,10 @@ import java.util.*;
 //    }
 //}
 
-public class Main{
-    public static void main(String[] args){
-        System.out.println("Hello World");
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        System.out.println("Hello World");
+//    }
+//}
+
+// to run the jar package we use java -jar with package name along with .jar extension
