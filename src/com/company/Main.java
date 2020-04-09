@@ -711,16 +711,16 @@ import java.util.*;
 //    }
 //}
 
-public class Main{
-    public static void main(String[] args){
-        System.out.println("Start");
-        printnumber(4);
-        System.out.println("Finish");
-    }
-
-    public static void printnumber(int limit){
-        for (int i = 0; i <= limit; i++){
-            System.out.println(i);
-        }
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        System.out.println("Start");
+//        printnumber(4);
+//        System.out.println("Finish");
+//    }
+//
+//    public static void printnumber(int limit){
+//        for (int i = 0; i <= limit; i++){
+//            System.out.println(i);
+//        }
+//    }
+//}
