@@ -734,7 +734,16 @@ import java.util.*;
 // to run the jar package we use java -jar with package name along with .jar extension
 public class Main{
     public static void main(String[] args){
-        int x = 19;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter any number: ");
+        double user = scanner.nextInt();
+        String ans = "";
+        while (user >= 1){
+            int result = (int)(user % 2);
+            user = Math.floor(user / 2);
+            ans = result + ans;
 
+        }
+        System.out.println(ans);
     }
 }
