@@ -732,3 +732,9 @@ import java.util.*;
 //}
 
 // to run the jar package we use java -jar with package name along with .jar extension
+public class Main{
+    public static void main(String[] args){
+        int x = 19;
+
+    }
+}
