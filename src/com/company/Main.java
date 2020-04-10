@@ -30,6 +30,8 @@ package com.company;
 //}
 
 //import java.awt.*;
+import org.w3c.dom.ls.LSOutput;
+
 import java.lang.reflect.Array;
 import java.text.NumberFormat;
 import java.util.*;
@@ -746,5 +748,22 @@ public class Main{
         }
         System.out.print("Your Answer is: ");
         System.out.println(ans);
+        System.out.print("Your number in form of bits is: ");
+        System.out.println(lengthMeasure(ans));
+
     }
+    public static String lengthMeasure(String x){
+        if (x.length() % 4 != 0){
+            while (true){
+                if (x.length() % 4 == 0){
+                    break;
+                }
+                x = "0" + x;
+
+            }
+            return x;
+        }
+        return x;
+    }
+
 }
