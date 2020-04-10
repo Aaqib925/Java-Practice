@@ -735,6 +735,7 @@ import java.util.*;
 
 // to run the jar package we use java -jar with package name along with .jar extension
 public class Main{
+
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter any number: ");
@@ -754,10 +755,7 @@ public class Main{
     }
     public static String lengthMeasure(String x){
         if (x.length() % 4 != 0){
-            while (true){
-                if (x.length() % 4 == 0){
-                    break;
-                }
+            while (x.length() % 4 != 0) {
                 x = "0" + x;
 
             }
