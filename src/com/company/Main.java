@@ -825,8 +825,26 @@ public class Main{
 
             else if (i == 3){
                 System.out.println("C\tG\tK\tO\tS\tW");
-                multiColumns.add(conjColumn3)
+                multiColumns.add(conjColumn3);
             }
+
+            else if (i == 4){
+                System.out.println("D\tH\tL\tP\tT\tX");
+                multiColumns.add(conjColumn4);
+            }
+
         }
+        System.out.println("Enter the Columns numbers of your word");
+
+        int[] finalList = new int[userLength];
+
+        for (int i = 1; i <= userLength; i ++){
+            System.out.print("Enter the number of column of letter " + i + ": ");
+            int user = scanner.nextInt();
+            finalList[i - 1] = user - 1;
+        }
+//        System.out.println(Arrays.toString(finalList));
+
+
     }
 }
