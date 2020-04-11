@@ -798,6 +798,35 @@ public class Main{
             int userChoice = scanner.nextInt();
             userColumnOne[i - 1] = userChoice;
         }
-        System.out.println(Arrays.toString(userColumnOne));
+//        System.out.println(Arrays.toString(userColumnOne));
+
+        System.out.println("Now please enter the column in which your letters appear from the list below: ");
+        System.out.println("1\t2\t3\t4\t5\t6\t7\n-------------------------");
+
+        List<String> conjColumn1 = Arrays.asList("A", "E", "I", "M", "Q", "U", "Y");
+        List<String> conjColumn2 = Arrays.asList("B", "F", "J", "N", "R", "V", "Z");
+        List<String> conjColumn3 = Arrays.asList("C", "G", "K", "O", "S", "W");
+        List<String> conjColumn4 = Arrays.asList("D", "H", "L", "P", "T", "X");
+
+
+        List<List<String>> multiColumns = new ArrayList<List<String>>();
+
+        for (int i: userColumnOne){
+            if (i == 1){
+                System.out.println("A\tE\tI\tM\tQ\tU\tY");
+                multiColumns.add(conjColumn1);
+
+            }
+
+            else if (i == 2){
+                System.out.println("B\tF\tJ\tN\tR\tV\tZ");
+                multiColumns.add(conjColumn2);
+            }
+
+            else if (i == 3){
+                System.out.println("C\tG\tK\tO\tS\tW");
+                multiColumns.add(conjColumn3)
+            }
+        }
     }
 }
