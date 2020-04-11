@@ -845,6 +845,10 @@ public class Main{
         }
 //        System.out.println(Arrays.toString(finalList));
 
+        System.out.print("Your word is: ");
+        for (int i = 0; i < userLength; i ++){
+            System.out.print(multiColumns.get(i).get(finalList[i]));
+        }
 
     }
 }
