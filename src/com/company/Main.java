@@ -782,3 +782,22 @@ import java.util.*;
 //        System.out.println(Arrays.toString(myarray));
 //    }
 //}
+
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please think of a word in your mind");
+        System.out.print("Enter the length of your word: ");
+        int userLength = scanner.nextInt();
+        System.out.println("Enter the number of columns from the grid below: ");
+        System.out.println("1\t2\t3\t4\n-------------\nA\tB\tC\tD\nE\tF\tG\tH\nI\tJ\tK\tL\nM\tN\tO\tP\nQ\tR\tS\tT\nU\tV\tW\tX\nY\tZ");;
+
+        int[] userColumnOne = new int[userLength];
+        for (int i = 1; i <= userLength; i ++){
+            System.out.print("Enter the column number of letter " + i + ": ");
+            int userChoice = scanner.nextInt();
+            userColumnOne[i - 1] = userChoice;
+        }
+        System.out.println(Arrays.toString(userColumnOne));
+    }
+}
