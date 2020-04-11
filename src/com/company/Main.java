@@ -766,19 +766,19 @@ import java.util.*;
 //
 //}
 
-public class Main{
-    public static void main(String[] args){
-        String[] myarray = new String[5];
-        Scanner scanner = new Scanner(System.in);
-        for (int i = 0; i < myarray.length; i ++){
-            System.out.print("Enter the name of users: ");
-            String user = scanner.nextLine();
-            myarray[i] = user;
-
-        }
-
-        System.out.print("Your Custom array is: ");
-
-        System.out.println(Arrays.toString(myarray));
-    }
-}
+//public class Main{
+//    public static void main(String[] args){
+//        String[] myarray = new String[5];
+//        Scanner scanner = new Scanner(System.in);
+//        for (int i = 0; i < myarray.length; i ++){
+//            System.out.print("Enter the name of users: ");
+//            String user = scanner.nextLine();
+//            myarray[i] = user;
+//
+//        }
+//
+//        System.out.print("Your Custom array is: ");
+//
+//        System.out.println(Arrays.toString(myarray));
+//    }
+//}
