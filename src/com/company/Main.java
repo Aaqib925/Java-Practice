@@ -777,6 +777,8 @@ public class Main{
 
         }
 
-        System.out.println("");
+        System.out.print("Your Custom array is: ");
+
+        System.out.println(Arrays.toString(myarray));
     }
 }
