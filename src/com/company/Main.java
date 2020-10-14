@@ -57,7 +57,7 @@ import java.util.*;
 
 // Strings
 
-//public class Main{
+// public class Main{
 //    public static void main(String[] args) {
 //        String message = new String("Hello");  // this is also another method
 //        System.out.println(message);
@@ -78,11 +78,11 @@ import java.util.*;
 
 //        String mystring = "   Hello aaqib  ";
 //        System.out.println(mystring.trim());
-        // using escape characters
+//         using escape characters
 //        String mystr = "Hello \"Aaqib\"";
 //        System.out.println(mystr);
 //    }
-//}
+// }
 
 // Arrays
 
@@ -852,3 +852,93 @@ import java.util.*;
 //
 //    }
 //}
+
+import java.util.Scanner;
+
+class Animal
+{
+    String name;
+    String color;
+    int age;
+    
+    Animal()
+    {
+        this.name = "";
+        this.color = "";
+        this.age = 0;
+    }
+    
+    public void getData()
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Name of Animal: ");
+        this.name = sc.nextLine();
+        System.out.print("Enter color of Animal: ");
+        this.color = sc.nextLine();
+        System.out.print("Enter age of Animal: ");
+        this.age = sc.nextInt();
+    }
+    
+    public void showData()
+    {
+        System.out.println();
+        System.out.println("Name of Animal is: " + this.name);
+        System.out.println("Color of Animal is: " + this.color);
+        System.out.println("Age of Animal is: " + this.age);
+    }
+}
+
+class Dog extends Animal{
+    int numberOfLegs;
+    
+    @Override
+    public void getData()
+    {
+        super.getData();
+        System.out.print("Enter Number of legs of DOG: ");
+        Scanner sc = new Scanner(System.in);
+        numberOfLegs = sc.nextInt();
+    }
+    
+    @Override
+    public void showData()
+    {
+        super.showData();
+        System.out.println("Number of Legs of Dog are: " + this.numberOfLegs);
+    }
+}
+
+class Horse extends Animal{
+    float NoofMiles;
+    @Override
+    public void getData()
+    {
+        super.getData();
+        Scanner sc= new Scanner(System.in);
+        System.out.print("Enter No of miles for Horse: ");
+        this.NoofMiles= sc.nextFloat();
+        
+    }
+    @Override
+    public void showData()
+    {
+        super.showData();
+        System.out.println("No of miles this Horse Can run are: "+NoofMiles);
+        
+    }
+    
+}
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Dog myanimal = new Dog();
+        myanimal.getData();
+        myanimal.showData();
+        
+        Horse myhorse = new Horse();
+        myhorse.getData();
+        myhorse.showData();
+
+    }   
+}
